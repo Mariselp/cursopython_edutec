@@ -16,7 +16,7 @@ lecText()
 
 
 console.log(x)*/
-var person = {
+/* var person = {
 
     firstName: "John",
   
@@ -39,4 +39,12 @@ for (i=0;i<3;i++) {
 
   console.log(frutas[i]);
 
-}
+} */
+for(var i= 0; i<=2; i++){
+   
+    continue
+}console.log(i)
+
+
+
+
