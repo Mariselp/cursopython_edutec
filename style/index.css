@@ -34,9 +34,7 @@ header{
   width:100%;
   
 }
-.logo img{
-  max-width: 7%;
-}
+
 body { 
   font-size: 17px;
   font-family: 'Ubuntu Condensed', sans-serif;
@@ -85,7 +83,9 @@ ul {
 }
 
 .nav-logo {
-  width: 70px;
+  width: 100px;
+  border-radius:30px;
+  box-shadow: black;
 }
 
 .nav-principal ul {
@@ -98,11 +98,80 @@ ul {
 
 .nav-principal ul.nav-menu{ 
   flex : 1;
-  margin-left: 30% 
+  margin-left: 25% 
 }
 .nav-principal ul li a:hover{
   border-bottom: 4px rgb(247, 8, 167) solid
 }
 .nav-principal ul li a{
   padding: 2px
+}
+
+
+/*carrousel*/
+.carrousel {
+  width: 90%;
+  max-width: 120em;
+  padding: 2em;
+  color: var(--negro);
+  transition: all 0.4s ease;
+  border-radius: 1em;
+  background-color: var(--blanco);
+  box-shadow: 1em 1em 2em var(--sombra-ppal), -1em -1em 2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;  
+  overflow: hidden;
+}
+
+.carrousel .grande {
+  width: 200%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--negro);
+  transition: all 0.4s ease;
+  border-radius: 1em;
+  background-color: var(--blanco);
+  box-shadow: 1em 1em 2em var(--sombra-ppal), -1em -1em 2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+  padding: 2em;
+  transition: all 0.5s ease;
+  transform: translateX(0%);
+  
+}
+
+.carrousel .img {
+  width: calc( 100% / 2 - 2em);
+  min-height: 10vh;
+  color: var(--negro);
+  transition: all 0.4s ease;
+  border-radius: 9em;
+  background-color: var(--blanco);
+  box-shadow: 1em 1em 2em var(--sombra-ppal), -1em -1em 2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+  padding: 10px;
+}
+
+.carrousel .puntos {
+  width: 100%;
+  margin: 3em ;
+  padding-left:70px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+.carrousel .punto {
+  width: 2em;
+  height: 2em;
+  margin: 1em 1em 0;
+  color: var(--negro);
+  transition: all 0.4s ease;
+  border-radius: 1em;
+  background-color: var(--blanco);
+  box-shadow: 0.6em 0.6em 1.2em var(--sombra-ppal), -0.6em -0.6em 1.2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+}
+
+.carrousel .punto.activo {
+  background-color: lightblue;
 }
