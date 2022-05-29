@@ -112,6 +112,7 @@ ul {
   align-items: center;
   height: 80px;
   padding: 5%;
+  border-bottom: 3px solid rgb(149, 15, 149);
 }
 
 .nav-logo {
