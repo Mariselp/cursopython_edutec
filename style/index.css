@@ -59,7 +59,7 @@ body {
   width:100%;
  }
  .flex-ppal1 {
-  width:50%;
+  width: 40%;
   margin: 50px;
   text-align: center;
   line-height: 30px;
@@ -69,7 +69,23 @@ body {
   border-width: 10px;
   padding: 1%;
  }
-
+ .flex-ppal2 {
+  width: 50%;
+  margin: 50px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 22px;
+  border-color:rgb(154, 67, 236);
+  border-style: outset;
+  border-width: 10px;
+  padding: 1%;
+ }
+.flex-video1 .flex-video2{
+margin: 5px
+}
+.flex-ppal2 h2{
+  padding-bottom: 30px;
+}
  .mat {
    background-color: rgb(195, 141, 223);
  }
@@ -138,13 +154,20 @@ ul {
 }
 .nav-principal ul li a:hover{
   border-bottom: 4px rgb(247, 8, 167) solid;
-  opacity: .7;
+  opacity: .4;
  
 }
 .nav-principal ul li a{
   padding: 2px
 }
-
+.bord-h1 a{
+  text-decoration: none;
+}
+.bord-h1 a:hover{
+  border: 4px rgb(247, 8, 167) solid;
+  transition: border 1s;
+  
+}
 
 /*carrousel*/
 .carrousel {

@@ -1,4 +1,4 @@
-/*window.addEventListener("load",function(){
+/**window.addEventListener("load",function(){
     let formulario =document.querySelector("form.formulario")
     formulario.addEventListener("submit", function(e){
         
@@ -63,10 +63,10 @@
         
     })
 }) */
-window.addEventListener("load",function(){
+ window.addEventListener("load",function(){
     let formulario =document.querySelector("form.formulario")
     formulario.addEventListener("submit", function(e){
-        
+   
 
         let campoNombre = document.querySelector("input.nombre")
         if(campoNombre.value== ""){
