@@ -114,7 +114,8 @@ ul {
 
 }
 .nav-principal ul li a:hover{
-  border-bottom: 4px rgb(247, 8, 167) solid
+  border-bottom: 4px rgb(247, 8, 167) solid;
+  opacity: .7
 }
 .nav-principal ul li a{
   padding: 2px
@@ -123,9 +124,7 @@ ul {
 
 /*carrousel*/
 .carrousel {
-  width: 90%;
-  max-width: 120em;
-  padding: 2em;
+  width: 100%;
   color: var(--negro);
   transition: all 0.4s ease;
   border-radius: 1em;
@@ -148,7 +147,7 @@ ul {
   border-radius: 1em;
   background-color: var(--blanco);
   box-shadow: 1em 1em 2em var(--sombra-ppal), -1em -1em 2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
-  padding: 2em;
+  padding: 1em;
   transition: all 0.5s ease;
   transform: translateX(0%);
   
@@ -156,18 +155,18 @@ ul {
 
 .carrousel .img {
   width: calc( 100% / 2 - 2em);
-  min-height: 10vh;
+  min-height: 8vh;
   color: var(--negro);
   transition: all 0.4s ease;
   border-radius: 9em;
   background-color: var(--blanco);
   box-shadow: 1em 1em 2em var(--sombra-ppal), -1em -1em 2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
-  padding: 20px;
+  padding: 30px;
 }
 
 .carrousel .puntos {
   width: 100%;
-  margin: 3em ;
+  margin: 1em ;
   padding-left:70px;
   display: flex;
   flex-flow: row nowrap;
@@ -189,5 +188,5 @@ ul {
 }
 
 .carrousel .punto.activo {
-  background-color: lightblue;
+  background-color: rgb(247, 8, 167);
 }
