@@ -225,7 +225,8 @@ ul {
   margin-bottom: 20px;
 }
 
-.controls {
+
+input{
   width: 100%;
   background: #24303c;
   padding: 10px;
@@ -236,7 +237,24 @@ ul {
   font-size: 18px;
   color: white;
 }
-
+textarea{
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+.errores{
+  color: red;
+  animation-name:desaparece;
+  animation-duration:5s;
+  font-size: 30px bold;
+  overflow:hidden;
+}
 .form-register p {
   height: 40px;
   text-align: center;

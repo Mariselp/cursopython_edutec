@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./style/index.css">
     <title>Educacion tecnologica</title>
        <!-- FONT AWESOME -->
+       <script  src="./JS/validation.js"></script>
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +24,7 @@
 <!-- CSS only -->
 
 
-    
+
 <script defer src="./JS/Mainpro.JS"></script>
 </head>
 <body class ="inicio">
@@ -87,32 +88,33 @@
         </div>
 
 
-        <form action="#" method="#" id="formulario">
+        <form action="#" method="#" id="formulario" class="formulario">
             <section  class="form-register">
                 <h4>Formulario de Preguntas y/o Consultas</h4>
                 <label >Nombres</label>
-                <input class="controls" type="text" placeholder="introduzca su nombre" id="nombre" name="nombre">
+                <input class="nombre" type="text" placeholder="introduzca su nombre" id="nombre" name="nombre">
 
                 <label >Apellido</label>
-                <input class="controls" type="text" placeholder="introduzca su Apellido" id="apellido" name="apellido">
+                <input class="apellido" type="text" placeholder="introduzca su Apellido" id="apellido" name="apellido">
 
                 <label >Colegio</label>
-                <input class="controls" type="text" placeholder="introduzca su Colegio" id="colegio" name="colegio">
+                <input class="colegio" type="text" placeholder="introduzca su Colegio" id="colegio" name="colegio">
 
                 <label >Curso</label>
-                <input class="controls" type="text" placeholder="introduzca su Curso" id="curso" name="curso">
+                <input class="curso" type="text" placeholder="introduzca su Curso" id="curso" name="curso">
 
                 <label >Mail</label>
-                <input  class="controls" type="email" placeholder="introduzca su Mail" id="mail" name="mail">
+                <input  class="mail" type="email" placeholder="introduzca su Mail" id="mail" name="mail">
 
                 <label >Pregunta/Consulta</label>
-                <input class="controls" type="textarea" placeholder="introduzca su Pregunta/Consulta" id="pregunta" name="pregunta">
+                <textarea class="pregunta" name="pregunta" id="pregunta" cols="30" rows="10"></textarea>
 
                 <label  for=""> Si quiere agregue un archivo para complementar su duda</label>
-                <input class="controls" type="file" >
+                <input class="archivo" type="file" >
 
                 <input class="botons" type="submit" value="Enviar">
                 <input class="botons" type="submit" value="Limpiar">
+                
             </section>
         </form>
     </section>
